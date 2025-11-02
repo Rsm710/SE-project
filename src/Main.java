@@ -2,7 +2,7 @@ import benchmark.Benchmark;
 
 public class Main {
     public static void main(String[] args) {
-        int[] input = generateTestArray(100000, 0, 5000); // tableau large
+        int[] input = generateTestArray(100000, 0, 5000);
         int testIndex = 12345;
 
         Benchmark.runBenchmark("split", input, testIndex);

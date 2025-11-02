@@ -12,26 +12,15 @@ BitPacking est un projet Java visant à optimiser la transmission de tableaux d'
 ## 🛠️ Prérequis
 
 - Java 17 ou supérieur
+- sdk : Oracle open jdk 23
 - Un IDE Java (IntelliJ, Eclipse, etc.) ou un terminal avec `javac` et `java`
 
-## 📁 Structure du projet
-
-bitpacking/ ├── compression/
-│   ├── BitPacking.java              # Interface commune
-│   ├── BitPackingSplit.java        # Méthode Split
-│   ├── BitPackingOverlap.java      # Méthode Overlap
-│   └── BitPackingOverflow\.java     # Méthode Overflow
-├── factory/
-│   └── BitPackingFactory.java      # Factory Pattern
-├── benchmark/
-│   └── Benchmark.java              # Benchmarks automatisés
-├── Main.java                       # Point d’entrée principal
 
 ## 🚀 Utilisation
 
 1. **Compilation du projet** :
 
-javac bitpacking/**/*.java Main.java
+javac Projet software engineering/src/main.java
 
 2.  **Exécution du programme principal** :
 
